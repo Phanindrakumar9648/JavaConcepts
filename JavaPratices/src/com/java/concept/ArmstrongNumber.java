@@ -1,5 +1,8 @@
 package com.java.concept;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class ArmstrongNumber {
 
     public int armstrongNo(int a) {
@@ -22,7 +25,11 @@ public class ArmstrongNumber {
 
     public static void main(String[] args) {
         ArmstrongNumber a = new ArmstrongNumber();
-        a.armstrongNo(153);
+        System.out.println("Enter an number");
+         Scanner sc = new Scanner(System.in);
+         int number = sc.nextInt();
+         a.armstrongNo(number);
+
         //anagaram
     }
 }
