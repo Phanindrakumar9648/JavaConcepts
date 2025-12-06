@@ -1,4 +1,7 @@
-package com.java.concept.inheritance;
+package com.java.concept;
+
+import com.java.concept.inheritance.Daughter;
+import com.java.concept.inheritance.Son;
 
 /**
  * The TestHierarchy class is used to demonstrate hierarchical inheritance.
